@@ -26,7 +26,7 @@ Header.prototype._toggleView = function () {
 	if (this.viewTrigger == 'grid') {	
 		view.classList.remove('view-list');
 		view.classList.add('view-grid');
-		this.viewTrigger = 'grid';
+		this.viewTrigger = 'list';
 
 		for (var i = 0; i < markup.length; i++) {
 		markup[i].classList.remove('grid');
